@@ -22,3 +22,14 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+## Rails Commands Used
+```
+rails new rails_hackernews
+
+rails generate model User email:string username:string password:string
+rails db:migrate
+
+rails generate model Post link:string published:boolean
+rails db:migrate
+```

@@ -32,4 +32,10 @@ rails db:migrate
 
 rails generate model Post link:string published:boolean
 rails db:migrate
+
+rails generate migration add_user_id_to_posts user_id:integer
+rails db:migrate
+
+rails generate model Comment text:string user_id:integer post_id:integer
+rails db:migrate
 ```
